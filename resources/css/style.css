@@ -16,7 +16,7 @@ header {
 
 .logo {
     position: absolute;
-    left: 0;
+    left: 10;
     height: 50px;
     max-width: 350px;
 }
@@ -50,4 +50,69 @@ header {
     transform: translate(-50%, -50%);
     background-color: black;
     width: 1200px;
+}
+
+/* Tea of the Month */
+
+.teatext {
+    text-align: center;
+    margin-top: 50px;
+}
+.picture {
+    height: 200px;
+    width: 300px; 
+}
+
+figure {
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    margin: 15px 20px 10px 20px;
+}
+
+figcaption {
+    caption-side: bottom;
+}
+
+/*Location*/
+
+.locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url(../images/img-locations-background.jpg);
+    position: relative;
+    margin-left: 40px;
+}
+
+#locationsh2 {
+    padding-top: 85px;
+    margin-bottom: 15px;
+}
+
+.location-heading {
+    margin-bottom: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.location-panel{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    color: white;
+    opacity: 1;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline-block;   
+}
+
+footer {
+    height: 200px;
+}
+
+#copyright {
+    text-align: left;
+    margin-left: 20px;
 }
